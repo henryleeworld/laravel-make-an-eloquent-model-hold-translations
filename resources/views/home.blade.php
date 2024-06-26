@@ -14,7 +14,7 @@
                         @foreach($posts as $post)
                             <div>
                                 <h2 class="text-xl">{{ $post->getTranslation('title', app()->getLocale()) }}</h2>
-                                <p class="mt-2">{{ substr($post->getTranslation('full_text', app()->getLocale()), 0, 50) }}...</p>
+                                <p class="mt-2">{{ mb_substr($post->getTranslation('full_text', app()->getLocale()), 0, 50, 'UTF-8') }}...</p>
                             </div>
                         @endforeach
                     </div>

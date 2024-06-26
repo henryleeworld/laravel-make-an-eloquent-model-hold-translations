@@ -1,4 +1,4 @@
-# Laravel 10 為 Eloquent 模型保存多國語言
+# Laravel 11 為 Eloquent 模型保存多國語言
 
 引入 spatie 的 laravel-translatable 套件來擴增為 Eloquent 模型保存多國語言，多國語言以 JSON 格式儲存，不需要額外的資料表來保存。
 
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/6qLhTM2.png)
+![](https://i.imgur.com/J3elU7y.png)
 > 選擇語言中的英文，切換成英文顯示語言
 
-![](https://i.imgur.com/x3kGm0z.png)
+![](https://i.imgur.com/pi6k8ow.png)
 > 選擇語言中的繁體中文，切換成繁體中文顯示語言

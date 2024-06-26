@@ -31,6 +31,6 @@ class PostController extends Controller
         $post->setTranslations('full_text', $request->input('full_text'));
         $post->save();
 
-        return redirect()->route('dashboard');
+        return redirect()->route('home');
     }
 }

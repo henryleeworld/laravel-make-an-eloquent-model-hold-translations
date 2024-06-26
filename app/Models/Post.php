@@ -10,6 +10,11 @@ class Post extends Model
 {
     use HasFactory, HasTranslations;
 
+    /**
+     * The attributes that aren't mass assignable.
+     *
+     * @var array
+     */
     protected $guarded = ['id'];
 
     public $translatable = ['title', 'full_text'];
